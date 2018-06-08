@@ -1,11 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f03cf66-4de4-4d6c-8ac8-86d9e75f23d4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyAA-extract.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyzeMovieSound.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audacityAnnotation2WAVs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioAnalysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioAnalysisRecordAlsa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioBasicIO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioFeatureExtraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioSegmentation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioTrainTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioVisualization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convertToWav.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/3WORDS.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/beat/100 BPM - Rhythm patterns - Salsa.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/beat/120 BPM Techno Drum Loop.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/beat/170 BPM - Simple Straight Beat - Drum Track.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/beat/200 BPM (goa psy trance).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/beat/small.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/computational.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/count.segments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/count.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/count2.segments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/count2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diarizationExample.segments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diarizationExample.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diarizationExample2.segments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diarizationExample2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/diarizationResults.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/doremi.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etMusicGenre6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etMusicGenre6.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etMusicGenre6MEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etSM.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etSMMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gbMusicGenre6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gbMusicGenre6.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gbMusicGenre6MEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gbSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gbSM.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gbSMMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hmmRadioSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knn5Classes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnMovies8classes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnMovies8classes.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnMusicGenre3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnMusicGenre6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnSM.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnSpeakerAll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnSpeakerAll.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnSpeakerFemaleMale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/knnSpeakerFemaleMale.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/matSegToCSV.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/matSegToCSV_dir.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/recordRadio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/recording1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/recording2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/recording3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rfMusicGenre6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rfMusicGenre6.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rfMusicGenre6MEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rfSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rfSM.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rfSMMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scottish.segments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scottish.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/similarities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/00.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/06.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/07.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/08.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/09.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/11.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/12.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/13.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/14.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/15.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/16.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/17.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/18.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/19.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/20.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/21.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/22.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/23.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/24.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/25.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/26.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/27.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/28.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/29.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/30.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/31.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/32.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/33.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/34.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/35.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/36.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/37.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/38.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/39.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/40.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/41.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/42.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/43.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/44.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/45.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/46.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/arousal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speechEmotion/valence.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/speech_music_sample.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svm5Classes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svm5ClassesMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMovies8classes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMovies8classes.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMovies8classesMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMusicGenre3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMusicGenre3.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMusicGenre3MEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMusicGenre6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMusicGenre6MEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMusicGenre8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmMusicGenre8MEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSM.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSMMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeakerFemaleMale" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeakerFemaleMale.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeakerFemaleMaleMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotionTexas_arousal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotionTexas_arousalMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotionTexas_valence" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotionTexas_valenceMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotion_arousal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotion_arousalMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotion_valence" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/svmSpeechEmotion_valenceMEANS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testComputational.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/trsToSegmentsFile.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="725" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pyAA-extract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyAA-extract" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyAA-extract" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f03cf66-4de4-4d6c-8ac8-86d9e75f23d4" name="Default" comment="" />
+      <created>1528484058442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528484058442</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="725" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961783" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
