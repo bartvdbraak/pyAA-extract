@@ -1,3 +1,8 @@
-from pyAudioAnalysis import audioTrainTest as aT
-aT.featureAndTrain(["classifierData/music","classifierData/speech"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "svm", "svmSMtemp", False)
-aT.fileClassification("data/doremi.wav", "svmSMtemp","svm")
+from pyAudioAnalysis import audioBasicIO
+from pyAudioAnalysis import audioFeatureExtraction
+import matplotlib.pyplot as plt
+
+[Fs, x] = audioBasicIO.readAudioFile("samples/dataset4/ep1-s1.wav");
+F = audioFeatureExtraction.stFeatureExtraction(x, Fs, 0.050*Fs, 0.025*Fs);
+plt.subplot(2,1,1); plt.plot(F[1,:]); plt.xlabel('Frame no'); plt.ylabel('Energy'); 
+plt.subplot(2,1,2); plt.plot(F[2,:]); plt.xlabel('Frame no'); plt.ylabel('Entropy Energy'); plt.show()
